@@ -246,7 +246,7 @@ shinyServer(function(input, output, session) {
     ##### START HERE GETTING THE REGRESSIONS TO WORK AND THEN ADDING THE CONDITIONALS INTO ALL THE PLOTS!!!!
     pat.egfr <- outpatient.egfr.3om[outpatient.egfr.3om$dist_id %in% ids,]
     
-    browser()
+    #browser()
     timeFrameChoice <- input$regressionOptions
     time = pat.egfr$futime_yrs
     if(timeFrameChoice == "days") {
