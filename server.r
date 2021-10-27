@@ -4,7 +4,7 @@ library(tidyverse)
 library(DT)
 library(ggplot2)
 
-setwd("/Users/bradyneeley/Downloads/egfr-table-files")
+setwd("Y:/IRB_00096551/egfr-table-files")
 
 #shiny::runExample("10_download")
 #master.file <- read_tsv("/Users/u6013142/Documents/Projects/eGFR/tables/vitals/bp_bmi_slope_cohort_summary.tsv", na = "NA")
