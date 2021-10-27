@@ -15,7 +15,7 @@ This app should and can only be run on the University of Utah CHPC redwood node.
 # • ggplot2
 
 Then use the following command:
-runGitHub( "<this repository name>", "<your user name>")
+shiny::runGitHub("PezzolesiLab/eGFR-Visualization-Tool", ref="main")
 ```
 
 ```
