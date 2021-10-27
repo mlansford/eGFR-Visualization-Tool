@@ -8,6 +8,7 @@ setwd("Y:/IRB_00096551/egfr-table-files")
 
 #shiny::runExample("10_download")
 #master.file <- read_tsv("/Users/u6013142/Documents/Projects/eGFR/tables/vitals/bp_bmi_slope_cohort_summary.tsv", na = "NA")
+# THIS DATA COULD BE A PULL FROM AROUND THE TIME SCOTT WAS WORKING ON HIS PAPER
 master.file <- read_tsv("slope_cohort_summary_right_censored_vitals_labs_meds_insulin.tsv")
 bmi.file <- read_tsv("bmi_study_pop.tsv")
 bp.file <- read_tsv("bp_study_pop.tsv")
