@@ -4,7 +4,7 @@ library(shinyjs)
 library(DT)
 
 shinyUI(fluidPage(
-  shinythemes::themeSelector(),
+  #shinythemes::themeSelector(),
   title = "Outpatient Data",
   
   h1("Outpatient Data"),
