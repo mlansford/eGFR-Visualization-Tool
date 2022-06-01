@@ -20,7 +20,7 @@ shiny::runGitHub("PezzolesiLab/eGFR-Visualization-Tool", ref="main")
 
 ```
 # First clone the repository with git. If you have cloned it into
-# ~/eGFRVisualizationTool, first go to that directory, then use runApp():
+# ~/eGFRVisualizationTool, go to that directory, then use runApp():
 setwd("~/eGFRVisualizationTool")
 runApp()
 ```
