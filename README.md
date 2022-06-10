@@ -24,3 +24,13 @@ shiny::runGitHub("PezzolesiLab/eGFR-Visualization-Tool", ref="main")
 setwd("~/eGFRVisualizationTool")
 runApp()
 ```
+
+### Getting it Running
+In the server.r the paths to these 4 files need to be changed to whatever files you want to view (I reccomend the most recent files from the lab's uddb):
+```
+master.file = read_tsv("")
+bmi.file = read_tsv("")
+bp.file = read_tsv("")
+outpatient.egfr.3om = read_tsv("")
+```
+If you want to use the most recent from the database, I would reccomend using my script "" included in this repository.
