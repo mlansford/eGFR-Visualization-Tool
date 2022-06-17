@@ -33,4 +33,5 @@ bmi.file = read_tsv("")
 bp.file = read_tsv("")
 outpatient.egfr.3om = read_tsv("")
 ```
+TODO: Finish with my script...its a lot of work
 If you want to use the most recent from the database, I would reccomend using my script "" included in this repository.
