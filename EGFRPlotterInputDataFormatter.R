@@ -7,7 +7,8 @@ library(dplyr)
 # based off of all the data thats currently in the database.
 
 # Scott's OG files for reference
-master.file = read_tsv("Y:/IRB_00096551/egfr-table-files/slope_cohort_summary_right_censored_vitals_labs_meds_insulin.tsv")
+# master.file = read_tsv("Y:/IRB_00096551/egfr-table-files/slope_cohort_summary_right_censored_vitals_labs_meds_insulin.tsv")
+master.file <- master.file.temp
 bmi.file = read_tsv("Y:/IRB_00096551/egfr-table-files/bmi_study_pop.tsv")
 bp.file = read_tsv("Y:/IRB_00096551/egfr-table-files/bp_study_pop.tsv")
 outpatient.egfr.3om = read_tsv("Y:/IRB_00096551/egfr-table-files/slope_cohort_egfr.tsv")
