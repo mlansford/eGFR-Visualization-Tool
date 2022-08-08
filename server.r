@@ -40,10 +40,10 @@ eGFR_outpatient_data <- data.frame(id = as.integer(master.file$dist_id),
                                    followup_years = master.file$followup_yrs,
                                    slope = master.file$corrected_slope,
                                    r2 = master.file$corrected_r2,
-                                   obsv_esrd_followup = master.file$obsv_esrd_fu_yrs,
-                                   esrd_followup = master.file$icd_esrd_fu_yrs,
-                                   dialysis_followup = master.file$icd_dialysis_fu_yrs,
-                                   kidney_followup = master.file$icd_kidney_tx_fu_yrs)
+                                   obsv_esrd_followup = master.file$obsv_esrd_fu_yrs)
+                                   #esrd_followup = master.file$icd_esrd_fu_yrs,
+                                   #dialysis_followup = master.file$icd_dialysis_fu_yrs,
+                                   #kidney_followup = master.file$icd_kidney_tx_fu_yrs)
 
 eGFR_outpatient_data$sex <- as.character(eGFR_outpatient_data$sex)
 eGFR_outpatient_data$ethnicity <- as.character(eGFR_outpatient_data$ethnicity)
